@@ -18,7 +18,7 @@ const Navbar = () => {
           height : window.innerHeight
         })
 
-        if(windowsize.width<=1400){
+        if(windowsize.width<=1300){
           setIcon(true)
         }else{
           setIcon(false)
