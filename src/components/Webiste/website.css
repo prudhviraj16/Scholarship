@@ -1,0 +1,23 @@
+.websiteimage{
+    max-width: 100%;
+    box-shadow: teal 0px 1px 2px 0px;
+}
+
+.websiteimage img{
+   
+    margin-left : 10%;
+
+}
+
+@media screen and (max-width:1400px) {
+    .websiteimage{
+        width : 90%;
+        height : 90%;
+        object-fit: cover;
+    }
+
+    .websiteimage img {
+        max-width : 100%;
+        max-height : 230%
+    }
+}

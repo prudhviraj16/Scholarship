@@ -1,0 +1,115 @@
+.navbar{
+    height: 5vh;
+    background: #055185;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width : 100%;
+    position : relative
+}
+
+.navbar .sub{
+    max-width : 30%;
+    display: flex;
+    align-items: center;
+    padding : 20px;
+    align-items: center;
+    justify-content: space-around;
+    flex : 1;   
+    margin-top : -0.6%
+}
+
+div .link{
+    color : white;
+    text-decoration: none;
+
+}
+
+.navbar .authenticate { 
+
+    max-width : 50%;
+    display: flex;
+    align-items: center;
+    flex : 1;
+    justify-content: flex-end;
+    margin-top : -0.6%
+
+}
+
+.navbar .authenticate .link{
+    margin : 0 30px
+}
+
+div .link:hover{
+    max-height : 100%;
+    max-width : 100%;
+    transition : 0.5s ease
+}
+
+.fa-solid{
+    display: none;
+}
+
+@media screen and (max-width : 1400px) {
+    
+    .navbar{
+        width : 100%;
+    }
+    .navbar .sub{
+        position : absolute;
+        display: flex;
+        flex-direction: column;
+        top : 110%;
+        justify-content: space-around;
+        width : 20%;
+        height : 30vh;
+        background : #055185;
+        z-index : 1456;
+        padding : 30px;
+        left : 80%;
+        transition: 0.3s all ease;
+    }
+
+    .navbar .authenticate{
+        position : absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        top : 500%;
+        width : 20%;
+        background : #055185;
+        height : 20vh;
+        z-index : 111;
+        padding : 30px;
+        left : 80%;
+        transition: 0.3s all ease;
+    }
+
+    .navbar .authenticate div .link{
+        margin-bottom : 10%
+    }
+
+    .fa-solid{
+        display: block;
+        font-size: 24px;
+        color :#fff;
+        position : absolute;
+        right : 20px;
+        cursor : pointer
+    }
+
+    .shift{
+        transform: translateX(100%);
+    }
+
+    .loginnavbar{
+        position : absolute;
+        top : 50%
+    }
+
+    .signupnavbar{
+        position : absolute;
+        top : 70%
+    }
+    
+}

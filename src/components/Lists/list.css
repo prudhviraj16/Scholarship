@@ -1,0 +1,179 @@
+.schemes{
+    background : #055185;
+    height : 20vh;
+    display: flex;
+    margin-top: 1%;
+    align-items: center;
+    
+}
+
+.row{
+    max-width : 80%;
+    margin : 0 auto;
+
+}
+
+.schemes .row .container{
+    display: flex;
+	justify-content: space-around;
+}
+
+.schemes .row .container .col-md-6{
+    display: flex;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.schemes {
+	background:#055185;
+	padding:10px;
+}
+.schemes .item{
+
+	border-top:thin solid #ccc;		
+	border-bottom:2px solid #1cbbb4;
+	margin-left:-1px;	
+		border-right:none;		
+	text-align:center;
+	padding:0px 10px;
+	background:#fff;
+
+}
+
+.schemes .item:first-child{
+
+	border-left:thin solid #ccc;		
+
+	text-align:center;
+
+
+}
+
+.schemes .item:last-child{
+
+	border-right:thin solid #ccc;		
+
+	text-align:center;
+	padding:10px;
+
+}
+
+.schemes .item:hover{
+
+background:#055185;
+}
+
+
+
+
+
+
+
+
+.schemes .item i{
+	font-size:25px;
+	width:100%;
+	text-align:center;
+	color:#00aaa0;
+}
+
+.schemes .item a{
+	font-size:18px;
+	color:#055185;
+	text-align:center;
+	font-family: 'robotoblack', sans-serif;
+	font-weight:normal;
+	display:block;
+
+}
+
+.schemes .item a:hover{
+
+	color:#00aaa0;
+	
+}
+
+
+.schemes_box {
+	width:100%;
+	background:#dadee1;
+	padding:10px;
+	text-align:center;
+	min-height:125px;
+	border:thin solid rgba(0,0,0,0.2);
+}
+
+
+.schemes_box a:hover{
+	/* width:100%;
+	background:#dadee1;
+	padding:10px;
+	text-align:center;
+	min-height:125px;
+	border:thin solid rgba(0,0,0,0.2); */
+}
+
+.schemes_box i{
+	width:55px;
+	text-align:center;
+	background:#344458;
+	line-height:55px;
+	color:#fff;
+	font-size:35px;
+	clear:both;
+	text-align:center;
+	display:block;
+	margin:0px auto;
+	margin-bottom:10px;
+
+}
+
+.schemes_box i img{
+
+width:90%;
+}
+
+
+.schemes_box a{
+clear:both;
+	font-size:18px;
+	font-family: 'roboto_condensedregular', sans-serif;
+	color:#111;
+	text-align:center;
+	line-height:18px;
+	margin:0px;
+	
+}
+.schemes .col-md-6:nth-child(1) {
+padding-right:0px;
+}
+
+.schemes .col-md-6:nth-child(2){
+padding-left:0px;
+}
+
+
+@media screen and (max-width:1400px) {
+	.schemes{
+		height : 45%;
+		
+	}
+	.schemes .row .container{
+		display: flex;
+		flex-direction: column;
+		margin-top : 1%
+	}
+
+	.schemes .row .container .col-md-6{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width : 100%
+	}
+	.sakjhdjksa{
+		height : 100%
+	}
+}
